@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/moldtag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mold filesystem tag paths across POSIX and Windows conventions.",
+  "bin": {
+    "moldtag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/moldtag.git"
+  },
+  "homepage": "https://theworker02.github.io/moldtag/",
+  "keywords": [
+    "mold",
+    "tag",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
